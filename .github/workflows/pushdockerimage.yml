@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
         with:
-          context: IS436-Lab5/
+          context: is436-lab5/
           push: true
-          tags: spark35/IS436-Lab5:${{github.run_number}}
+          tags: spark35/is436-lab5:${{github.run_number}}
