@@ -20,4 +20,4 @@ jobs:
         with:
           context: foosball/
           push: true
-          tags: shivathebravo/foosball:${{github.run_number}}
+          tags: spark35/foosball:${{github.run_number}}
